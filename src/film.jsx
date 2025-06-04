@@ -14,14 +14,14 @@ function FeaturedFilm() {
   return (
     <>
       {/* Featured Film Section */}
-      <section id="films" className="bg-[#421B03] text-white py-24 px-6">
+      <section id="films" className="bg-[#421B03] text-white py-10 sm:py-24 px-2 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-8xl font-bold mb-12 uppercase">Featured Film</h2>
+          <h2 className="text-3xl sm:text-5xl md:text-8xl font-bold mb-6 sm:mb-12 uppercase">Featured Film</h2>
 
           <motion.div
             ref={ref}
             style={{ scale }}
-            className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg"
+            className="relative w-full aspect-video rounded-xl overflow-hidden shadow-lg max-w-full"
           >
             <video
               src={videoFile}

@@ -30,17 +30,17 @@ const newsData = [
 
 const LastSection = () => {
   return (
-    <div className="bg-[#3B1F0C] text-white px-6 py-16">
+    <div className="bg-[#3B1F0C] text-white px-2 sm:px-6 py-8 sm:py-16">
       {/* PRESS/NEWS */}
-      <div className="max-w-7xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
-          <h2 className="text-3xl font-bold text-white">Press/News</h2>
-          <button className="bg-gradient-to-r from-yellow-400 to-yellow-500 px-6 py-2 rounded-full font-semibold shadow-md">
+      <div className="max-w-7xl mx-auto w-full">
+        <div className="flex flex-col sm:flex-row justify-between items-center mb-4 sm:mb-8 gap-4">
+          <h2 className="text-xl sm:text-3xl font-bold text-white">Press/News</h2>
+          <button className="bg-gradient-to-r from-yellow-400 to-yellow-500 px-4 sm:px-6 py-2 rounded-full font-semibold shadow-md">
             Read All Blogs
           </button>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-8">
           {newsData.map((item, index) => (
             <div key={index} className="bg-[#3B1F0C] rounded-xl">
               <img src={item.image} alt={item.title} className="rounded-xl w-full h-56 object-cover mb-4" />
@@ -55,9 +55,9 @@ const LastSection = () => {
       </div>
 
       {/* CTA SECTION */}
-      <div className="max-w-3xl mx-auto mt-20 bg-gradient-to-r from-yellow-700 via-yellow-500 to-yellow-400 p-1 rounded-3xl">
-        <div className="bg-[#3B1F0C] rounded-3xl p-8 text-center">
-          <img src={logoImg} alt="Logo" className="w-16 h-16 mx-auto mb-4" />
+      <div className="max-w-3xl mx-auto mt-10 sm:mt-20 bg-gradient-to-r from-yellow-700 via-yellow-500 to-yellow-400 p-1 rounded-3xl">
+        <div className="bg-[#3B1F0C] rounded-3xl p-4 sm:p-8 text-center">
+          <img src={logoImg} alt="Logo" className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-2 sm:mb-4" />
           <p className="text-yellow-400 font-medium uppercase">Support the movement</p>
           <h2 className="text-2xl md:text-3xl font-bold leading-snug mb-4">
             Changing the landscape of cinema through bold, authentic Deaf representation.

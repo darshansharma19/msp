@@ -26,18 +26,18 @@ const books = [
 
 export default function BookSection() {
   return (
-    <section className="bg-[#2C4728] py-16 px-12 text-white font-serif">
-      <h2 className="text-xl font-semibold mb-8 uppercase tracking-wide">Books</h2>
-      <div className="space-y-10">
+    <section className="bg-[#2C4728] py-8 sm:py-16 px-2 sm:px-6 md:px-12 text-white font-serif">
+      <h2 className="text-lg sm:text-xl font-semibold mb-4 sm:mb-8 uppercase tracking-wide">Books</h2>
+      <div className="space-y-6 sm:space-y-10">
         {books.map((book, index) => (
           <div
             key={index}
-            className="bg-[#d9d9d9] rounded-3xl p-8 flex flex-col md:flex-row items-center gap-8 text-black shadow-md"
+            className="bg-[#d9d9d9] rounded-3xl p-4 sm:p-8 flex flex-col md:flex-row items-center gap-4 sm:gap-8 text-black shadow-md"
           >
             <img
               src={book.image}
               alt={book.title}
-              className="w-full md:w-56 h-auto rounded-2xl shadow-md object-cover"
+              className="w-full max-w-xs md:w-56 h-auto rounded-2xl shadow-md object-cover"
             />
             <div className="flex-1">
               {book.author && (

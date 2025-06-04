@@ -79,34 +79,33 @@ function App() {
       <header
         id="home"
         className="min-h-[60vh] sm:min-h-[70vh] md:min-h-screen bg-cover bg-center flex items-center justify-center pt-24 sm:pt-20"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-        }}
+        style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="text-center px-2 sm:px-4 md:px-6">
-          <h2 className="text-white text-3xl sm:text-5xl md:text-7xl font-bold leading-tight drop-shadow-lg">
-            Creating Bold Stories
-            <br />
-            That Redefine Deaf <br className="hidden sm:block" /> Representation
-          </h2>
+       <div className="text-center px-2 sm:px-4 md:px-6 w-full">
+          <h1 className="font-[Cinzel] text-white uppercase font-extrabold drop-shadow-lg leading-tight tracking-tight
+            text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl max-w-4xl mx-auto">
+            <span className="block">CREATING BOLD STORIES</span>
+            <span className="block">THAT REDEFINE DEAF</span>
+            <span className="block">REPRESENTATION</span>
+          </h1>
         </div>
       </header>
       {/* Welcome Section */}
-      <section className="bg-[#421B03] text-white py-16 px-6 text-center">
-        <h3 className="text-2xl font-semibold mb-4 uppercase">
+      <section className="bg-[#421B03] text-white py-10 md:py-16 px-4 md:px-8 text-center">
+        <h2 className="font-[Cinzel] text-xl sm:text-2xl md:text-3xl font-bold mb-6 uppercase tracking-wide text-[#F2BA35]">
           Welcome to Mermaid Signature Production
-        </h3>
-        <p className="max-w-4xl mx-auto text-[#FFFFFF] text-lg leading-relaxed">
-          where powerful, authentic Deaf-led narratives come to life. We are a
-          Deaf-owned film production company committed to transforming Hollywood
-          from within. Through bold storytelling and fearless artistic
-          leadership, we spotlight the richness of Deaf culture and push the
-          boundaries of what inclusive cinema looks like.
-        </p>
+        </h2>
+        <div className="max-w-3xl mx-auto">
+          <p className="font-serif text-base sm:text-lg md:text-xl text-[#fff] leading-relaxed">
+            where powerful, authentic Deaf-led narratives come to life. We are a Deaf-owned film production company committed to transforming Hollywood from within.<br />
+            Through bold storytelling and fearless artistic leadership, we spotlight the richness of Deaf culture and push the boundaries of what inclusive cinema looks like.
+          </p>
+        </div>
       </section>
       {/* Featured Film Section */}
       <FeaturedFilm />
       {/* {coming soon} */}
+        {/* {coming soon} */}
       <section
         className="relative bg-cover bg-center text-white text-center py-16 sm:py-32 px-2 sm:px-6"
         style={{ backgroundImage: `url(${comingSoonBg})` }}

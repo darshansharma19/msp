@@ -16,7 +16,7 @@ function FeaturedFilm() {
       {/* Featured Film Section */}
       <section id="films" className="bg-[#421B03] text-white py-10 sm:py-24 px-2 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-5xl md:text-8xl font-bold mb-6 sm:mb-12 uppercase">Featured Film</h2>
+          <h2 className="font-[Cinzel] text-white uppercase font-extrabold tracking-tight text-3xl sm:text-5xl md:text-7xl lg:text-8xl mb-6 sm:mb-12">FEATURED FILM</h2>
 
           <motion.div
             ref={ref}

@@ -95,9 +95,9 @@ function App() {
         <h2 className="font-[Cinzel] text-xl sm:text-2xl md:text-3xl font-bold mb-6 uppercase tracking-wide text-[#F2BA35]">
           Welcome to Mermaid Signature Production
         </h2>
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-2xl mx-auto">
           <p className="font-serif text-base sm:text-lg md:text-xl text-[#fff] leading-relaxed">
-            where powerful, authentic Deaf-led narratives come to life. We are a Deaf-owned film production company committed to transforming Hollywood from within.<br />
+            where powerful, authentic Deaf-led narratives come to life. We are a Deaf-owned film production company committed to transforming Hollywood from within.
             Through bold storytelling and fearless artistic leadership, we spotlight the richness of Deaf culture and push the boundaries of what inclusive cinema looks like.
           </p>
         </div>

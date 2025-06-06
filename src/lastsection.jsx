@@ -32,7 +32,7 @@ const LastSection = () => {
   return (
     <div className="bg-[#3B1F0C] text-white px-2 sm:px-6 py-8 sm:py-16">
       {/* PRESS/NEWS */}
-      <div className="max-w-7xl mx-auto w-full">
+      <div id="press" className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col md:flex-row justify-between items-center mb-4 md:mb-8 gap-4">
           <h2 className="text-2xl md:text-2xl font-bold text-white tracking-wide md:tracking-wider">Press/News</h2>
           <button className="bg-gradient-to-r from-yellow-400 to-yellow-500 px-5 md:px-8 py-2 md:py-2.5 rounded-full font-semibold shadow-md text-xs md:text-sm uppercase tracking-wide hover:scale-105 transition">Read All Blogs</button>
@@ -74,7 +74,7 @@ const LastSection = () => {
       </div>
 
       {/* CONTACT SECTION */}
-      <div className="max-w-4xl mx-auto mt-12 text-center">
+      <div id='contact' className="max-w-4xl mx-auto mt-12 text-center">
         <h3 className="text-xl font-semibold mb-4 tracking-wide">Contact Us</h3>
         <div className="flex justify-center mb-6">
           <span className="bg-[#5c3924] px-8 py-2 rounded-full text-xs md:text-sm tracking-wide">info@mermaidsignatureproduction.com</span>
